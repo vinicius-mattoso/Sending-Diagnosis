@@ -32,6 +32,16 @@ Nessa página o usuário ira receber a sua avaliação assim como uma recomenda�
 
 ![Welcome](/PAG02.jpeg?raw=true)
 
+# Terceira Pag
+Nessa página o usuário ira inserir seu nome, nome do(a) médico(a) que pediu o exame assim como seu e-mail para receber a sua avaliação.
+
+![Welcome](/PAG03.jpeg?raw=true)
+
+# E-mail
+Essa é a resposta enviada por e-mail au usuário, contendo as variaveis de entrada, a resposta que a inteligencia obteve e pedindo para entrar em contato com o(a) médico(a) para uma avaliação mais detalhada.
+
+![Welcome](/RESP.jpeg?raw=true)
+
 # Futuras atualizações
 
 Futuras atualizações na parte de Machine Learning podem ser realizadas, como rebalancear a base, validação cruzada ou até mesmo escolher outro tipo de algoritmo para a classificação.
