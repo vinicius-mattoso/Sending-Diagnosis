@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Previsão de Diabetes (API)</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Previsão de Diabetes</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+        <input type="text" name="Num. Gravid" placeholder="Gravidez (número de vezes)" required="required" />
+        <input type="text" name="Conc. Glicose" placeholder="Concentração de Glicose" required="required" />
+        <input type="text" name="Pressao Diast" placeholder="Pressao Diastólica" required="required" />
+        <input type="text" name="Dobra Cut." placeholder="Dobra Cutânea" required="required" />
+        <input type="text" name="Insulina" placeholder="Insulina" required="required" />
+        <input type="text" name="IMC" placeholder="IMC" required="required" />
+        <input type="text" name="Historico" placeholder="Histórico" required="required" />
+        <input type="text" name="Idade" placeholder="Idade" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Prever</button>
+    </form>
+
+   <br>
+   <br>
+
+
+ </div>
+
+
+</body>
+</html>
