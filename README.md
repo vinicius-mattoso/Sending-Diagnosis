@@ -1,4 +1,5 @@
 
+![Welcome](/diagnosis_cover.png?raw=true)
 # Sending Diagnosis
 
 Esse projeto foi feito com uma extensão do "my first Deploy project of machine Learning".
