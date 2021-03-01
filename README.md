@@ -21,10 +21,16 @@ Para essa etapa foi criada a função de envio, assim como duas classes uma para
 # Test
 
 Como teste já enviei o email para diferentes pessoas e está funcionando bem.
+
 # Primeira Pag
 Nessa página o usuário ira completar os dados necessários para a inteligencia fazer sua análise.
 
 ![Welcome](/PAG01.jpeg?raw=true)
+
+# Segunda Pag
+Nessa página o usuário ira receber a sua avaliação assim como uma recomendação para procurar o seu médico. Em seguida ele pode optar por enviar o relatório por e-mail ou retornar a página inicial
+
+![Welcome](/PAG02.jpeg?raw=true)
 
 # Futuras atualizações
 
